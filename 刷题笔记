@@ -20,3 +20,15 @@ y,z = max(num, key=lambda x:x[0])
 print(y, z)
 >>2.2 1.8
   " / "就表示 浮点数除法，返回浮点结果;" // "表示整数除法
+  for in 除了遍历数字还可以遍历字符串列表
+s = 'I love you more than i can say' 
+for i in s:     
+print(i)
+>>列 I love you more than i can say
+l = ['123', '234', '345'] 
+for i in l:     
+print(i)
+>>123
+  234
+  345
+list.index(obj) 返回值： 该方法返回查找对象的索引位置，如果没有找到对象则抛出异常。
